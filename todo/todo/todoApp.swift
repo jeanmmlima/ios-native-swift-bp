@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
-struct todoApp: App {
+struct TodoApp: App {
+    @State private var store = TodoStore()
+    @State private var theme = AppTheme()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TodoListView()
+                .environment(store)
+                .environment(theme)
         }
     }
 }
