@@ -3,6 +3,8 @@ import SwiftUI
 struct ProductListView: View {
     @Environment(ProductListViewModel.self) private var productListViewModel
     @Environment(CartViewModel.self) private var cartViewModel
+    @State private var isPresentingCreateProduct = false
+    @State private var isCreatingProduct = false
 
     private let columns = [
         GridItem(.flexible(), spacing: 10),
@@ -46,15 +48,41 @@ struct ProductListView: View {
                 }
 
                 ToolbarItem(placement: .topBarTrailing) {
-                    NavigationLink {
-                        CartView()
-                    } label: {
-                        CartBadgeView(count: cartViewModel.itemsCount)
+                    HStack(spacing: 8) {
+                        Menu {
+                            Button("Cadastrar Produto", systemImage: "plus.circle") {
+                                isPresentingCreateProduct = true
+                            }
+                            NavigationLink("Gerenciar Produtos", destination: ProductManagementView())
+                        } label: {
+                            Image(systemName: "slider.horizontal.3")
+                        }
+
+                        NavigationLink {
+                            CartView()
+                        } label: {
+                            CartBadgeView(count: cartViewModel.itemsCount)
+                        }
                     }
                 }
             }
             .navigationDestination(for: Product.self) { product in
                 ProductDetailView(product: product)
+            }
+            .sheet(isPresented: $isPresentingCreateProduct) {
+                NavigationStack {
+                    ProductFormView(isSaving: isCreatingProduct) { name, description, price, imageURL in
+                        isCreatingProduct = true
+                        defer { isCreatingProduct = false }
+
+                        return await productListViewModel.createProduct(
+                            name: name,
+                            description: description,
+                            price: price,
+                            imageURL: imageURL
+                        )
+                    }
+                }
             }
             .task {
                 // Chamada assíncrona de carregamento inicial da vitrine de produtos.
