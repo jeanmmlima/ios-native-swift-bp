@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		AC2C200A2F703E6500D653AD /* mycounters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycounters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2C20872F75B55600D653AD /* NativeRes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeRes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AC2C200C2F703E6500D653AD /* mycounters */ = {
+		AC2C20892F75B55600D653AD /* NativeRes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mycounters;
+			path = NativeRes;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC2C20072F703E6500D653AD /* Frameworks */ = {
+		AC2C20842F75B55600D653AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC2C20012F703E6500D653AD = {
+		AC2C207E2F75B55600D653AD = {
 			isa = PBXGroup;
 			children = (
-				AC2C200C2F703E6500D653AD /* mycounters */,
-				AC2C200B2F703E6500D653AD /* Products */,
+				AC2C20892F75B55600D653AD /* NativeRes */,
+				AC2C20882F75B55600D653AD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AC2C200B2F703E6500D653AD /* Products */ = {
+		AC2C20882F75B55600D653AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC2C200A2F703E6500D653AD /* mycounters.app */,
+				AC2C20872F75B55600D653AD /* NativeRes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC2C20092F703E6500D653AD /* mycounters */ = {
+		AC2C20862F75B55600D653AD /* NativeRes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC2C20152F703E6600D653AD /* Build configuration list for PBXNativeTarget "mycounters" */;
+			buildConfigurationList = AC2C20922F75B55700D653AD /* Build configuration list for PBXNativeTarget "NativeRes" */;
 			buildPhases = (
-				AC2C20062F703E6500D653AD /* Sources */,
-				AC2C20072F703E6500D653AD /* Frameworks */,
-				AC2C20082F703E6500D653AD /* Resources */,
+				AC2C20832F75B55600D653AD /* Sources */,
+				AC2C20842F75B55600D653AD /* Frameworks */,
+				AC2C20852F75B55600D653AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AC2C200C2F703E6500D653AD /* mycounters */,
+				AC2C20892F75B55600D653AD /* NativeRes */,
 			);
-			name = mycounters;
+			name = NativeRes;
 			packageProductDependencies = (
 			);
-			productName = mycounters;
-			productReference = AC2C200A2F703E6500D653AD /* mycounters.app */;
+			productName = NativeRes;
+			productReference = AC2C20872F75B55600D653AD /* NativeRes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AC2C20022F703E6500D653AD /* Project object */ = {
+		AC2C207F2F75B55600D653AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					AC2C20092F703E6500D653AD = {
+					AC2C20862F75B55600D653AD = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = AC2C20052F703E6500D653AD /* Build configuration list for PBXProject "mycounters" */;
+			buildConfigurationList = AC2C20822F75B55600D653AD /* Build configuration list for PBXProject "NativeRes" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = AC2C20012F703E6500D653AD;
+			mainGroup = AC2C207E2F75B55600D653AD;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = AC2C200B2F703E6500D653AD /* Products */;
+			productRefGroup = AC2C20882F75B55600D653AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC2C20092F703E6500D653AD /* mycounters */,
+				AC2C20862F75B55600D653AD /* NativeRes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC2C20082F703E6500D653AD /* Resources */ = {
+		AC2C20852F75B55600D653AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC2C20062F703E6500D653AD /* Sources */ = {
+		AC2C20832F75B55600D653AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AC2C20132F703E6600D653AD /* Debug */ = {
+		AC2C20902F75B55700D653AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		AC2C20142F703E6600D653AD /* Release */ = {
+		AC2C20912F75B55700D653AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,13 +244,14 @@
 			};
 			name = Release;
 		};
-		AC2C20162F703E6600D653AD /* Debug */ = {
+		AC2C20932F75B55700D653AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SN3QT8XTC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -258,12 +259,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.mycounters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanlima.example.NativeRes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -275,17 +277,18 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AC2C20172F703E6600D653AD /* Release */ = {
+		AC2C20942F75B55700D653AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SN3QT8XTC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -293,12 +296,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.mycounters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanlima.example.NativeRes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -310,32 +314,32 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC2C20052F703E6500D653AD /* Build configuration list for PBXProject "mycounters" */ = {
+		AC2C20822F75B55600D653AD /* Build configuration list for PBXProject "NativeRes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC2C20132F703E6600D653AD /* Debug */,
-				AC2C20142F703E6600D653AD /* Release */,
+				AC2C20902F75B55700D653AD /* Debug */,
+				AC2C20912F75B55700D653AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC2C20152F703E6600D653AD /* Build configuration list for PBXNativeTarget "mycounters" */ = {
+		AC2C20922F75B55700D653AD /* Build configuration list for PBXNativeTarget "NativeRes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC2C20162F703E6600D653AD /* Debug */,
-				AC2C20172F703E6600D653AD /* Release */,
+				AC2C20932F75B55700D653AD /* Debug */,
+				AC2C20942F75B55700D653AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AC2C20022F703E6500D653AD /* Project object */;
+	rootObject = AC2C207F2F75B55600D653AD /* Project object */;
 }
