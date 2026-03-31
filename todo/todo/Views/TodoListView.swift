@@ -15,7 +15,7 @@ struct TodoListView: View {
     var body: some View {
         NavigationStack {
             List(store.tasks) { task in
-                NavigationLink(value: task) {
+                NavigationLink(destination: TaskDetailView(store: store, task: task)) {
                     VStack(alignment: .leading) {
                         Text(task.title)
                             .font(.headline)
@@ -34,9 +34,6 @@ struct TodoListView: View {
                                             .foregroundStyle(.purple)
                                     }
                                 }
-                            }
-            .navigationDestination(for: TodoItem.self) { task in
-                                TaskDetailView(store: store, task: task)
                             }
         }
         .tint(.purple)
